@@ -1,41 +1,24 @@
 # react-firebase-authentication
-
-[![Build Status](https://travis-ci.org/taming-the-state-in-react/react-firebase-authentication.svg?branch=master)](https://travis-ci.org/taming-the-state-in-react/react-firebase-authentication) [![Slack](https://slack-the-road-to-learn-react.wieruch.com/badge.svg)](https://slack-the-road-to-learn-react.wieruch.com/) [![Greenkeeper badge](https://badges.greenkeeper.io/taming-the-state-in-react/react-firebase-authentication.svg)](https://greenkeeper.io/)
-
-* Found in [Taming the State in React](https://roadtoreact.com/course-details?courseId=TAMING_THE_STATE)
-* [Live](https://react-firebase-authentication.wieruch.com/)
-* [Tutorial](https://www.robinwieruch.de/complete-firebase-authentication-react-tutorial/)
+Boilerplate / build Configuration for authentication and real-time database using React and Firebase.
+Demo: http://react-fire-auth.zerostatic.com/
 
 ## Features
+- Authentication and real-time database using Firebase
+- Sign in using Email, Facebook or Google, with ability to add more social logins.
+- Protected and unprotected Routes with React Router
+- Lost/reset password functionality
+- Login/Logout Functionality
+- Validates email client side
+- ES6 syntax
 
-* uses:
-  * only React (create-react-app)
-  * firebase 5
-  * react-router 4
-  * no Redux/MobX
-    * [Redux Version](https://github.com/taming-the-state-in-react/react-redux-firebase-authentication)
-    * [MobX Version](https://github.com/taming-the-state-in-react/react-mobx-firebase-authentication)
-  * [React's 16.3 context API](https://reactjs.org/blog/2018/03/29/react-v-16-3.html)
-* features:
-  * Sign In
-  * Sign Up
-  * Sign Out
-  * Password Forget
-  * Password Change
-  * Protected Routes with Authorization
-  * Database: Users
+## Instructions:
+- npm install
+- Add your Firebase app configurations to file: src/firebase/Firebase.js
+- For facebook login, follow instructions here: https://firebase.google.com/docs/auth/web/facebook-login
+- Run: npm start and open http://localhost:3000
+- To create production build: npm run build
 
-## Installation
-
-* `git clone git@github.com:taming-the-state-in-react/react-firebase-authentication.git`
-* `cd react-firebase-authentication`
-* `npm install`
-* `npm start`
-* visit http://localhost:3000/
-* Use your own Firebase Credentials
-
-### Use your own Firebase Credentials
-
-* visit https://firebase.google.com/ and create a Firebase App
-* copy and paste your Credentials from your Firebase App into src/firebase/firebase.js
-* activate Email/Password Sign-In Method in your Firebase App
+## Built using:
+- create-react-app build tool: https://github.com/facebookincubator/create-react-app
+- Firebase: http://firebase.google.com
+- React: https://facebook.github.io/react/
