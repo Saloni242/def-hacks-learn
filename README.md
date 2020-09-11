@@ -1,4 +1,4 @@
-# react-firebase-authentication
+# Def Hacks Outreach Website
 Boilerplate / build Configuration for authentication and real-time database using React and Firebase.
 Demo: http://react-fire-auth.zerostatic.com/
 
