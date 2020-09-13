@@ -1,0 +1,71 @@
+#content {
+  padding-top: 70px;
+  min-height: calc(100vh - 92px);
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 56px;
+
+/* Green */
+
+color: #62A337;
+}
+footer {
+  border-radius: 0 !important;
+  border-bottom: 0;
+  margin: 20px 0 0;
+}
+
+.navbar,
+.navbar-default {
+  background-color: #5C5E60 !important;
+
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  padding : 0px !important;
+}
+.navbar-default , .navbar-brand{
+  color:#FFFFFF !important;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+}
+.Footer{
+  background-color: #C4C4C4 !important;
+}
+.Contact{
+  background: #62A337;
+  border: 1px solid #000000;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  
+  }
+  .navbar-default .navbar-nav > li > a {
+color:black !important;
+  }
+
+  .Explore{
+    background-color: #62A337 !important;
+    border-radius: 12px !important;
+    
+    height:80px;
+    width:35%;
+  }
+  .btn{
+    font-family: Roboto !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 20px !important;
+    line-height: 42px !important;
+    color: #000000 !important;
+  }
+

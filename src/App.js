@@ -4,6 +4,7 @@ import { hashHistory } from 'react-router'
 import Navbar from './Navbar';
 import './css/font-awesome.css'
 import './css/bootstrap-social.css';
+import Home from './Home.js';
 
 class App extends Component {
   constructor(props) {
@@ -26,14 +27,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="App-header">
-          <h4>React / Firebase with Authentication</h4>
-          <a className="btn btn-block btn-social btn-github" href="https://github.com/zerostatic/react-firebase-authentication">
-            <span className="fa fa-github"></span> View on GitHub
-          </a>
-        </div>
-        <Navbar loggedin={this.state.loggedin} />
-        {this.props.children}
+        <Home/>
       </div>
     );
   }
